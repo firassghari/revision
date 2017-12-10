@@ -1,0 +1,5 @@
+﻿create table employer_buck (id int , name string , age int , ville string )
+clustered by (id) into 4 buckets 
+row format delimited 
+fields terminated by ','
+stored as textfile ; 
