@@ -1,0 +1,1 @@
+﻿create table employerOrcwithdata stored as orc  as select * from employers ; 
