@@ -1,0 +1,9 @@
+sqoop import \
+--connect jdbc:mysql://sandbox.hortonworks.com:3306/firas \
+--driver com.mysql.jdbc.Driver \
+--username root \
+--password hadoop \
+--table employers \
+--split-by id \
+-m 1
+
